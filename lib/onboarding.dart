@@ -54,6 +54,8 @@ class _SplashScreenState extends State<SplashScreen> {
         showBackButton: true,
         skip: Text('skip'),
         done: Text('done'),
+        next: Text(''),
+        overrideDone: null,
       ),
     );
   }
